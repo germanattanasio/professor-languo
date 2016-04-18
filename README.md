@@ -70,7 +70,7 @@ but you can use the IDE of your choice.”
 1.  Clone the Search application from GitHub by issuing the
     following command in your terminal:
 
-   git clone https://github.com/watson-developer-cloud/professor-languo  
+   git clone https://github.com/watson-developer-cloud/professor-languo.git 
 
 2.  Add the newly cloned repository to your local Eclipse workspace.
 
