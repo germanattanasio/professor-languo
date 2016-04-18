@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<postlinks>
+	<row Id="101" CreationDate="2012-10-23T21:14:50.640" PostId="6715"
+		RelatedPostId="23" LinkTypeId="1" />
+	<row Id="346" CreationDate="2012-10-23T23:47:54.710" PostId="54"
+		RelatedPostId="6" LinkTypeId="3" />
+	<row Id="347" CreationDate="2012-10-23T23:27:54.710" PostId="54" RelatedPostId="16" LinkTypeId="1" />	
+	
+</postlinks>

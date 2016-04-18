@@ -1,0 +1,184 @@
+ThreadId	QuestionTitle	QuestionBody	ParentId	SerFilePath	Tags
+2133	Turning a differential drive robot to a specific angle	"<p>Given a robot with 2 wheels with radius r on one axle with length D, I want to set the wheel speed so that it turns to an angle phi as fast as possible. The timestep t is 64 milliseconds.</p>
+
+<p>I thought the wheel speed could be set to v = ((desired_heading-actual_heading) * circumference_wheel_trajectory)/(2*pi * t * wheel_radius). This will converge to a somewhat right angle, eventually, but its very slow and becomes slower as I approach the angle I want to be at.</p>
+
+<p>Is there an alternative/better way to do this?</p>
+"	1602	./src/test/resources/duplicateThreads/2133.ser	kinematics
+4750	PID Control Tuning	"<p>Im currently designing a robot for my undergraduate project. One of the task of this robot is to follow the wall. For the purpose I'm using a PID control system, where the reference is given from a ultrasonic sensor. So my problem here is im having a hard time tuning the PID. I know i can find the P coefficient pretty easily by plotting the desired set point range vs desired motor output speed. Even then the robot is not so stable, so i though of adding DI part of PID. But how do find out roughly the values of these coefficients without just trying out random values (manual tuning)? Thank you so much. Much appreciated.</p>
+"	167	./src/test/resources/duplicateThreads/4750.ser	motor;control;pid
+4948	Submarine screw and the isolation from the water	"<p>How does the submarine prevent water flow through the screw mechanism? The mechanism rotates the screw so there should be a little gap, how come the water doesn't come through this gap in to the submarine?</p>
+"	150	./src/test/resources/duplicateThreads/4948.ser	motor;design
+1644	What is rotor torque?	"<p>On my stepper's <a href=""http://download.lulzbot.com/AO-100/hardware/electronics/spec_sheets/SY42STH47-1504A_stepperMotors.pdf"" rel=""nofollow"">datasheet</a>, it has the category ""rotor torque"" (labeled in N-CM). <strong>What does that mean? Is this the torque it has can supply when turning? (Hopefully)</strong></p>
+"	1113	./src/test/resources/duplicateThreads/1644.ser	torque;stepper-motor
+2256	Flipping an old manual switch (physical one)	"<p>I Have an old <a href=""http://www.hifido.co.jp/photo/10/520/52010/b.jpg"" rel=""nofollow"">audio amplifier</a> that has those switches to turn it on. 
+I'm looking for the simplest motor/robotic arm (or any other relevant component) to control this switch - eventually via Raspberry Pi .</p>
+
+<p>Are there any options ?</p>
+"	1408	./src/test/resources/duplicateThreads/2256.ser	motor;raspberry-pi;robotic-arm
+6327	beaglebone black power supply for hexapod	"<p>I am trying to build a <em>hexapod</em> with camera interfacing using a <strong>beaglebone black</strong> for college project. I'm not sure what <strong>power supply</strong> to give so it can power up to <em>bot,</em> having in mind that it should be <strong>portable (mobile)</strong> and it should power about <em>18 servo motors</em> along with the <em>camera</em>, <em>wifi</em> and the <em>processor</em>. Your help is needed very badly as i'm nearing the <em>deadline</em> for the project.</p>
+"	416	./src/test/resources/duplicateThreads/6327.ser	power;servos;beagle-bone;hexapod
+2321	Tracking 2D positioning with IMU Sensor	"<p>I am using a miniature car and I want to estimate the position. We can not use GPS modules and most of the tracking systems that I saw, are using IMU senson with the GPS module. In our car we are able to find our exact correct location with image processing but for some parts that dont have enough markings we can not do this. So we want to use the IMU as backup for our positioning. so as long as the positioning is close is good for us.</p>
+
+<p>And we are only interested in our 2D position since the car is on a flat ground.</p>
+
+<p>I am using a IMU 9DOF sensor and I want to calculate my movement. I have seen some amazing works with IMU for tracking body movements but no code or simple explanation is anywhere about it. So basically I have the reading from accelerometer, gyro and magnetometer. I also have orientation in quarternions. From the device I am getting also the linear acceleration but even when I am not moving it in any direction the values are not 0 which is really confusing.</p>
+
+<p>Can you please help me how to approach this?</p>
+
+<p>Thanks in advance</p>
+"	172	./src/test/resources/duplicateThreads/2321.ser	sensors;accelerometer;gyroscope
+1838	How Yaw, Pitch and Roll effect the flight of Quadcopter?	"<p>I am doing simulation of Quadcopter in simulink. I want to know how Yaw, Pitch and Roll effect the flight of Quadcopter? and How these are different from a single rotor helicopter? 
+Mainly how to change the RPM to change the x,y,z coordinates of the Quadcopter? 
+Is there any Differential Equation that can convert the rpm to yaw pitch and roll? Please help.</p>
+"	1831	./src/test/resources/duplicateThreads/1838.ser	quadcopter
+2870	Find the right actuator to control the flow of flour	"<p>I'm building a circuit to control the flow of flour. The basic idea is to open that actuator (Possibly valve?) to let a specific amount go through and then close it. The tube should have a diameter of 1cm max.</p>
+
+<p>I wonder what is the right actuator to use? Maybe a valve is the right one? Any other solution? Also, it would be great if you pointed out some suitable actuators that I can buy online.</p>
+"	1145	./src/test/resources/duplicateThreads/2870.ser	actuator
+1475	"Pros/Cons of common robotics ""kits"" at the high school level"	"<p>I am interested in starting a robotics club at my high school next year, since we don't have one, and I want to know what the pros/cons are of common kits. I already have a Vex kit since my uncle is one of the regional suppliers for Indiana, but I'm not sure that Vex is the best choice. What are the pros/cons of the other kits out there?</p>
+
+<p>Note: I looked at Lego Mindstorms, and have used them when I was learning robotics, but do not want them for this. Also, i own a Raspberry Pi.</p>
+"	1132	./src/test/resources/duplicateThreads/1475.ser	raspberry-pi;mindstorms;beginner;children
+1174	PID tuning to make my balancing robot better	"<p>See the video below of my balancing robot.<br>
+<a href=""http://www.youtube.com/watch?v=Rjp8yoTVUcY"" rel=""nofollow"">Balancing robot</a></p>
+
+<p>I was having trouble getting it to balance on hard surfaces but finally got it after playing with the PID gains a lot.  Previously it was balancing just fine on carpet.  </p>
+
+<p>I set the PID gains by just picking a Kp, then increasing Ki until the robot oscillated very badly and tried to smash it's self into the ground,  then increasing Kd until it was finally stable. Here's the gains I'm using in the video.</p>
+
+<pre><code>  Kp=20, Ki=4.5, Kd=45;
+</code></pre>
+
+<p>It will sit in one spot balancing without any problem.  You can see in the video that it can even stop from falling after I give it a pretty good kick.  The problem is that it stops from falling over but then greatly overshoots the other direction.  In the video you can see when I give it just a small tap it runs the other way for a while before finally becoming stable again.  </p>
+
+<p>Any suggestions on what to try next?</p>
+"	167	./src/test/resources/duplicateThreads/1174.ser	pid
+1175	Minimum speed controller refresh rate	"<p>In a quadrotor we need to change each motor's speed depends on its position in space. More frequency will result more stability ( I mean if we can change motor's speed 400 times per second instead of 100 times per second we may stabilize our UAV quadrotor far better ).</p>
+
+<p>Now my question targeting people who made a UAV quadrotor before or have any information about ESCs. I wanna know whats the minimum refresh rate for ESCs in a quadrotor to make it stable ? For example may an ESC with 50hz refresh rate enough for stabilizing quadrotor or not ? I'm asking this question because high speed ESCs are more expensive than lower speed ones.</p>
+
+<p>I have <a href=""http://www.emaxmodel.com/views.asp?hw_id=21"" rel=""nofollow"">this one</a>. May it work ?</p>
+"	231	./src/test/resources/duplicateThreads/1175.ser	quadrotor;quadcopter;esc
+4820	Choosing motor characteristics	"<p>I have just sized the DC motors I want to use (corresponding to my robot and its intended applications - my figures include a 50% uncertainty factor to account for friction in reducers and other losses). Now I need to actually choose the exact motors I want to buy from the manufacturer (I am targeting maxon motors as I am not an expert and want no problem). I have a few down to earth questions about linking the mechanical needs to the electrical characteristics:</p>
+
+<ul>
+<li>Maxon states a ""nominal voltage"" in the characteristic sheets. Is that the voltage you should apply to the motor? This may be a dumb question but I have followed the full maxon e-learning course and read about other tutorials on the web and I could not find this information anywhere. Can anyone who knows about motors confirm?</li>
+<li>As far as I understand, the nominal torque corresponds to the maximum torque the motor can sustain continuously. So I guess, as a rule of thumb, I should find a motor with a nominal torque = my max torque (after reduction), or around. Right?</li>
+<li>Also I chose a motor reference (310005 <a href=""http://www.maxonmotor.com/maxon/view/catalog/"" rel=""nofollow"">found here</a>) which has a stated power of 60W, as the nominal voltage is 12V, I was expecting to have a nominal current of 5A, but it states 4A. Where am I wrong?</li>
+<li>The motor I chose has nominal speed = 7630rpm - nominal torque = 51.6mNm. My needs are max speed = 50.42rpm / max torque = 10620 mNm. This means a reduction factor of 151 for speed and 206 for torque. Should I choose a gear closer to 151 or 206?</li>
+<li>What is the ""rated torque"" mentioned when choosing a gear? I know my input torque (torque on the motor side) and my output torque (torque on the system side), does that correspond to any of these two?</li>
+</ul>
+
+<p>I have followed some theoretical and practical courses on the web but I find it hard to find answers to my down to earth question...</p>
+
+<p>Thanks,</p>
+
+<p>Antoine.</p>
+"	4828	./src/test/resources/duplicateThreads/4820.ser	motor
+2234	Zero crossing events in trapezoidal commutation	"<p>I would like to ask a question about zero crossing event in a trapezoidal commutation on a brush-less DC motor. Here is the waveform that shows that the zero crossing event occurs every 180 electrical degrees in a sinusoidal commutation:<br> <img src=""http://i.stack.imgur.com/lcZrH.png"" alt=""sinusoidal""></p>
+
+<p>But what about trapezoidal commutation. Here is the waveform that I found about the trapezoidal commutation: <br><img src=""http://i.stack.imgur.com/jIez1.png"" alt=""trapezoidal""></p>
+
+<p>So as you see, the zero crossing occurs 30 electrical degrees after the previous commutation and 30 electrical degrees before the next commutation.
+In a motor with one pole pair, we would have 30 electrical degrees = 30 mechanical degrees, so we would have this waveform: <img src=""http://i.stack.imgur.com/T5BCZ.png"" alt=""zero crossing"">
+You see that the zero crossing in phase A occurs when the magnet faces the phase C, or in other words, after 30 electrical degrees from the last commutation.
+My question in why does the zero crossing happen at that moment, why not after 60 electrical degrees, or 15 electrical degrees?
+Is it related to some law's of induction? What are those law and how do this law's appear in this motor?
+Can someone explain to me this with some pics?</p>
+"	2228	./src/test/resources/duplicateThreads/2234.ser	brushless-motor
+6367	How to combine an accelerometer and a gyroscope to find robot location and orientation in 2D/3D space	"<p>I have data from an accelerometer that measures X,Y,Z acceleration and data from a gyroscope that measure pitch, roll and yaw. How would I combine this data to find robot location and orientation in 2D or 3D space? </p>
+"	2298	./src/test/resources/duplicateThreads/6367.ser	localization;accelerometer;algorithm;gyroscope
+4980	Could a robot be programmed to be human?	"<p>This is all hypothetical. If it was possible, it would have been done by now.</p>
+
+<p>I realise that this area has been touched upon in many sci-fi movies but I wondered that if it was even feasible, how could it be achieved?</p>
+
+<p>I know that it would raise a lot of ethical questions, I don't doubt that but I'm interested in the science.</p>
+
+<p>What would a robot's brain have to be like to function like a human brain? For example, for it to have emotion (e.g. love, empathy), learn new things and remember them, make all those connections that a human brain does?</p>
+
+<p>Thanks to all who reply!</p>
+"	4890	./src/test/resources/duplicateThreads/4980.ser	mobile-robot;humanoid
+4568	What is a PID as is related to quadcopters	"<p>I'm trying to make a Quadcopter from scratch, I have a fair amount of experience with adruinos, and I'm trying to understand how to necessary systems work, and I can't seem to figure out what PID means, is it a method of regulating pitch and roll? like a stabilizer? I think from what I've read that its a system that detects orientation of the craft and tries to correct it</p>
+"	2920	./src/test/resources/duplicateThreads/4568.ser	arduino;quadcopter;microcontroller;pid;beginner
+4650	SLAM without landmarks using sonar	"<p>I'm currently programming an app for a robot and I'd like to make him map a zone and then make him move autonomously from one point to another.</p>
+
+<p>I have to solve a SLAM problem, but the biggest matter is that I can't use landmarks to find myself in the environment. The robot just has the abilities to move, and to make distance measurements over -120/+120 degrees using a sonar.</p>
+
+<p>I can't find any simply explained algorithm that permits me to solve this SLAM problem with the no-landmark limitation.</p>
+
+<p>Have you any idea ?</p>
+"	1985	./src/test/resources/duplicateThreads/4650.ser	slam;sonar
+1332	Multicopter odd or even	"<p>I would like to ask which is better to design the multicopter with odd or even number of propellers? and why?</p>
+"	543	./src/test/resources/duplicateThreads/1332.ser	quadrotor
+4291	I need advice for mobile robot navigation	"<p>I have built my robot with two servo-motors (with encoders) and ultrasonic sensors , the mobile robot should navigate from its initial point to goal point without collide with any obstacles dependent on the Artificial Potential Field algorithm , I want to find new xy coordinate point of moving robot , In this I am using two servo-motors, one per axis  , it gave me pluses , from this what is the best way to find angle and coordinate xy of mobile robot from these pluses, even though there will be error and inaccurate result , it is ok for me . I would be very much appreciate any help.</p>
+
+<p>thanks</p>
+"	1653	./src/test/resources/duplicateThreads/4291.ser	wheeled-robot
+3115	Manual PID tuning for small 3 wheels robot	"<p>Since no mentioning of specific robot, several methods were suggested in <a href=""http://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops"">What are good strategies for tuning PID loops?</a></p>
+
+<p>What strategies work well for:</p>
+
+<p>DIY robot, size 70% of A4 paper, 1kg</p>
+
+<p>2 differential drive wheels, 1 free support wheel</p>
+
+<p>6 volts, 1.5 watt DC brushed motor, gear 1:50</p>
+
+<p>Speed 0.4 meter per second</p>
+
+<p>PWM speed control, optical interrupter odometer feedback</p>
+
+<p>Will PID update rate 5 to 20Hz (50ms) do a good job? </p>
+"	167	./src/test/resources/duplicateThreads/3115.ser	pid;wheeled-robot;pwm;tuning
+5038	Control circuit of humanoid robot: is it worth to learn and use ROS?	"<p>I am building the upper body of a humanoid robot for my M.Sc thesis project with 24 DC motors and multiple sensors (something like i-cub or Nao). I have basic
+ knowledge of communication protocols and I have worked with micros before but I have no knowledge and experience on working with ROS. The question I have is whether or not it is worthy and practical for me to learn ROS and use this for my  robot or should I stick with what I already know.</p>
+"	5034	./src/test/resources/duplicateThreads/5038.ser	microcontroller
+1391	creating a robot from ez-b or regular arduino	"<p>Does anyone have experience with this <strong>ez-b</strong>, it is sold by <em>ez-robot.com</em> and comes with an SDK for Visual Studio</p>
+
+<p>It has direct scripting in runtime and through usb or bluetooth, wifi, irc, https</p>
+
+<p>My question is, if I get a regular arduino board, will i be able to do the same?
+from what ive read, arduino needs to hold the instructions on its own memory, but I rather have the brain in the computer, and feed signals back and forth to the microcontroller</p>
+
+<p>Also, is <strong>arduino</strong> alone, a step down as the website niceley puts it</p>
+
+<p>Thanks for your help in advance</p>
+"	1279	./src/test/resources/duplicateThreads/1391.ser	arduino;microcontroller
+2087	Which Kinect to a movement base?	"<p>I am making a mobile base for a robot with wheels. I want to use a Kinect like a movement sensor (to avoid obstacles, recognition of people, etc...) but I read that there is 2 models, the 360 and the Developer.</p>
+
+<p>Which Kinect works well for my job? And another thins, its there another thing that can I use like a movement sensor? To see diferent posibilities,</p>
+"	654	./src/test/resources/duplicateThreads/2087.ser	mobile-robot;wheeled-robot;kinect
+4966	Keeping two wheeled wall following robot straight	"<p>I have a two-wheeled (two DC motors) robot that needs to follow the wall beside the robot.</p>
+
+<p>The issue is that the DC motors spin at different rates (because they are not identical, of course), so the robot does not go straight when the same voltage is provided to each motor.</p>
+
+<p>How can I use IR distance sensors (and op-amps) to keep the distance from the wall constant?</p>
+
+<p>(the robot must travel parallel to the wall)</p>
+"	4967	./src/test/resources/duplicateThreads/4966.ser	two-wheeled
+5205	Programming a Quadcopter	"<p>I am building quadcopter for aerial photography for project. Though quadcopters are available commercially, I would like to start from scratch ( except the frame - HJ450 ) and program it so that I can also improve my knowledge on embedded systems programming.</p>
+
+<p>I know there are flight controllers like arduicopter, multiwii etc but the nature of my course demands me to program myself one.</p>
+
+<p>I am planning to use atmega 2560 microcontroller to control the quadcopter. However, I need guidance where to further go from there.</p>
+
+<p>Help and guidance would be really appreciated,
+Thanks</p>
+"	5171	./src/test/resources/duplicateThreads/5205.ser	quadcopter;programming-languages;embedded-systems;atmega
+1450	How would I go about interfacing the raspberry pi and arduino?	"<p>I want to do a project where I control motors, and the arduino seems ideal for that. However, I'm going to need to do quite a bit of processing on the back end first. Connecting the arduino to a computer isn't an option, because it has to be quite mobile. Does anyone have any experience controlling arduino with raspberry pi?</p>
+"	4	./src/test/resources/duplicateThreads/1450.ser	arduino;raspberry-pi
+1552	Use of automated tricopters instead of quadcopters?	"<p>Hy, I just found useful to post my idea here. </p>
+
+<p>I've seen videos about automated quadcopters: <a href=""http://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters.html"" rel=""nofollow"">http://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters.html</a> and <a href=""http://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate.html"" rel=""nofollow"">http://www.ted.com/talks/vijay_kumar_robots_that_fly_and_cooperate.html</a>. </p>
+
+<p>I surfed pages from the companies presenting this research and other information on the internet, but I haven't found why they use quadcopters specifically. 
+I understand, how accelerating, rotating and rolling works in those quadcopters - it's simple, but they claim that quadcopters have minimum number of working parts to fulfill their needs, which I don't agree and I think that tricopters are better in this (duocopters can't rotate horizontally, but tricopters can by inclining and then powering the remaining left or right propeller). </p>
+
+<p>I rode forums, calculated and draw drafts of both tri and quad and found, that tri is much more efficient just in everything than quad with same props and battery when taken in account that best properties has the smallest copter with the largest props so: 
+3:4 moving parts (no vectored yaw in tri), 9.5:16 size, building Y instead of X construction take far less material 1.5:2.82, lesser maximum power input 3:4, better power efficiency makes longer flight time and tricopters have also improved agility over quadcopters. </p>
+
+<p>The only disadvantage I see is a bit complicated horizontal rotating in tricopter without vectored yaw, which can be problem in man controlled machines but easily solved by simple algorithms in automated machines -> it's not a real disadvantage, just a small work to be done. I was thinking about doing that in my bachelor thesis, but for now I am looking for your opinions, thanks!</p>
+
+<p>EDIT: Maybe the torque is the problem, because on tricopters you can can have all 3 props in 1 direction or 2 in 1 direction and 1 in the opposite and it's symmetrical in neither way, but I'm not sure if this is the main problem...</p>
+"	543	./src/test/resources/duplicateThreads/1552.ser	quadcopter;multi-rotor

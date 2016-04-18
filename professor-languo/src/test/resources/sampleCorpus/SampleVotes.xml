@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<votes>
+	<row Id="1" PostId="6715" VoteTypeId="2" CreationDate="2012-10-23T00:00:00.000" />
+	<row Id="2" PostId="6715" VoteTypeId="2" CreationDate="2012-10-24T00:00:00.000" />
+	<row Id="3" PostId="6715" VoteTypeId="3" CreationDate="2012-10-23T00:00:00.000" />
+</votes>

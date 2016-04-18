@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration>
+	<Appenders>
+
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n" />
+		</Console>
+
+		<RollingFile name="RollingFile" fileName="log/professor-languo.log"
+			filePattern="log/%d{yyyy-MM-dd.HH}_professor-languo.log">
+			<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n" />
+			<policies>
+				<TimeBasedTriggeringPolicy interval="5"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy size="100MB" />
+			</policies>
+			<DefaultRolloverStrategy max="30" />
+		</RollingFile>
+
+		<File name="QuestionFile" fileName="log/questions.log">
+			<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n" />
+		</File>
+
+	</Appenders>
+
+	<Loggers>
+
+		<Logger name="questionLogger" additivity="false">
+			<AppenderRef ref="QuestionFile" />
+		</Logger>
+
+		<!-- set the level of httpclient to warn to prevent every client transaction 
+			from being logged. If this is removed, the log file fills up quickly with 
+			DEBUG message from httpclient. -->
+		<logger name="org.apache.http" additivity="false">
+			<level value="warn" />
+		</logger>
+
+		<Root level="info">
+			<AppenderRef ref="STDOUT" level="info" />
+			<AppenderRef ref="RollingFile" />
+		</Root>
+
+	</Loggers>
+</Configuration>
+

@@ -1,0 +1,7 @@
+QID	QuestionTitle	AnswerLabel	AnswerTitle	Confidence	IsCorrect
+42	What is the Answer to the Ultimate Question of Life, the Universe, and Everything?	1	Eat cheese!	1.0	true
+42	What is the Answer to the Ultimate Question of Life, the Universe, and Everything?	2	Be kind	0.8	false
+42	What is the Answer to the Ultimate Question of Life, the Universe, and Everything?	3	Have courage	0.75	false
+6	Who stole the cookie from the cookie jar?	7	Not Justin.  No way.	0.95	false
+6	Who stole the cookie from the cookie jar?	8	Definitely Justin.  What a jerk!	0.5	true
+6	Who stole the cookie from the cookie jar?	9	Probably Justin, but we can't be sure...	0.25	false

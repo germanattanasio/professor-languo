@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration>
+	<Appenders>
+		<File name="A1" fileName="log/professor-languo-test.log" append="false">
+			<PatternLayout pattern="%t %-5p %c{2} - %m%n" />
+		</File>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="org.apache.log4j.xml" level="debug">
+			<AppenderRef ref="A1" />
+		</Logger>
+		<!-- set the level of httpclient to warn to prevent every client transaction 
+			from being logged. If this is removed, the log file fills up quickly with 
+			DEBUG message from httpclient. -->
+		<logger name="org.apache.http">
+			<level value="warn" />
+		</logger>
+
+		<Root level="all">
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="A1" />
+		</Root>
+	</Loggers>
+</Configuration>

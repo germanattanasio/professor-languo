@@ -1,0 +1,15 @@
+applications:
+- services:
+  - professor_languo_retrieve_and_rank
+  disk_quota: 1024M
+  host: demo-application
+  name: demo-application
+  path: professor-languo.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+
+declared-services:
+  professor_languo_retrieve_and_rank:
+    label: retrieve_and_rank
+    plan: standard*

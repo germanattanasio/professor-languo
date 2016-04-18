@@ -1,0 +1,19 @@
+{
+  "greeting_1": "Hello, I am Professor Languo!!!",
+  "greeting_2": "Ask me a question about English usage",
+  "praise": "Great question",
+  "progressing": "Just a moment while I search the <a class=speech--a href=\"http://english.stackexchange.com/\"target=_blank>community</a> to find releventanswers.",
+  "answer":"Here are the most relevent answers.",
+  "greeting_3": "Ask another question",
+  "greeting_4": "Let me suggest a question",
+  "learn":"Learn more",
+  "doc_title": "Documentation",
+  "doc_content": "View the details of how this App works and full documentation on how to build it.",
+  "bluemix_title": "Bluemix",
+  "bluemix_content": "Get started with the digital innovation platform that helps you build your cognitive app.",
+  "eco_title": "Watson Ecosystem",
+  "eco_content": "Provide your business with Watson cognitive technology and gain access to IBM's network and a community of organizations working to solve their industries' toughest challenges.",
+  "term": "Terms & conditions",
+  "privacy": "Privacy",
+  "build": "Build with IBM Watson"
+}

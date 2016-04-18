@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head><title>Ask Professor Languo</title>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel=icon type=image/png sizes=32x32 href=images/favicon.png>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel=stylesheet type=text/css>
+    <link rel=stylesheet href=css/style.css>
+</head>
+<body class=_EGA>
+<div class=_EGA--container>
+    <div class=_EGA--content>
+        <div class=logo><img class=logo--src src=images/professor-languo.svg></div>
+        <!-- message section 1-->
+        <div class="speech speech--speech-one">
+            <!--<script src="js/demo.js" type="text/javascript">polyglot.t('greeting_1')</script>-->
+            <div class=speech--bold id="greeting_1">Hello, I am Professor Languo.</div>
+            <div class=speech--thin id="greeting_2">Ask me a question about English usage</div>
+        </div>
+        <!--message section 2-->
+        <div class="speech speech--speech-two" style=display:none;>
+            <div class=speech--bold id="praise">Great question!</div>
+            <div class=speech--thin id="progressing">Just a moment while I search the <a class=speech--a
+                                                                        href="http://english.stackexchange.com/"
+                                                                        target=_blank>community</a> to find relevent
+                answers.
+            </div>
+        </div>
+        <!--message section 3-->
+        <div class="speech speech--speech-three" style=display:none;>
+            <div class=speech--bold id="answer">Here are the most relevent answers.</div>
+        </div>
+        <div class=result style=display:none;>
+            <div class=result--section-container></div>
+            <div class=result--another-question id="greeting_3">Ask another question</div>
+        </div>
+        <div class=question-input>
+            <form class=question-input--form autocomplete=off><input class="base--input question-input--input"
+                                                                     name=questionText type=text
+                                                                     placeholder="e.g. difference between effect and affect?">
+                <button class=question-input--search-arrow type=submit><span class="icon icon-right-arrow"></span>
+                </button>
+            </form>
+            <!--message section 4-->
+            <div class=question-input--suggest-question id="greeting_4">Let me suggest a question</div>
+        </div>
+    </div>
+    <div class=learn-more style=display:none;>
+        <div class=learn-more--title id="learn">Learn more</div>
+        <!--message section 5-->
+        <div class=learn-more--container ><a class="learn-more--button base--button" href=#
+                                            target=_blank id="doc_title">Documentation</a>
+            <div class=learn-more--content id="doc_content">View the details of how this App works and full documentation on how to build
+                it.
+            </div>
+        </div>
+        <!--message section 5-->
+        <div class=learn-more--container ><a class="learn-more--button base--button" href=# target=_blank id="bluemix_title">Bluemix</a>
+            <div class=learn-more--content id="bluemix_content">Get started with the digital innovation platform that helps you build your
+                cognitive app.
+            </div>
+        </div>
+        <!--message section 6-->
+        <div class=learn-more--container ><a class="learn-more--button base--button"
+                                            href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/ecosystem.html?watson_cmpid=watson:web:watsonlandingsite:learnmorelink"
+                                            target=_blank id="eco_title">Watson Ecosystem</a>
+            <div class=learn-more--content id="eco_content">Provide your business with Watson cognitive technology and gain access to
+                IBM's network and a community of organizations working to solve their industries' toughest challenges.
+            </div>
+        </div>
+        <!--message section 7-->
+        <div class=footer--learn-more><img src=images/Watson_logo.svg class=footer--watson-logo> <a
+                class="footer--terms footer--link" href=legal/TermsOfUse.html target=_blank>Terms & Conditions |</a> <a
+                class="footer--privacy footer--link" href="http://www.ibm.com/privacy/us/en/" target=_blank>Privacy
+            |</a> <a class="footer--built footer--link"
+                     href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/" target=_blank>Built with
+            IBM Watson</a></div>
+    </div>
+    <div class=footer><img src=images/Watson_logo.svg class=footer--watson-logo> <a class="footer--terms footer--link"
+                                                                                    href=legal/TermsOfUse.html
+                                                                                    target=_blank id="term">Terms & Conditions
+        |</a> <a class="footer--privacy footer--link" href="http://www.ibm.com/privacy/us/en/" target=_blank id="privacy">Privacy
+        |</a> <a class="footer--built footer--link"
+                 href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/" target=_blank id="build">Built with IBM
+        Watson</a></div>
+</div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js></script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js></script>
+<script type=text/javascript src=js/demo.js></script>
+<script type=text/javascript src=js/polyglot.min.js></script>
+</body>
+</html>

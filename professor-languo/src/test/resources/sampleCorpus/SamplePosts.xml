@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<posts>
+	<row Id="6715" PostTypeId="1" AcceptedAnswerId="6716"
+		CreationDate="2015-03-04T10:26:19.073" Score="0" ViewCount="34"
+		OwnerUserId="9216" LastActivityDate="2015-03-06T09:01:57.130"
+		Title="What is the answer to life the universe and everything?"
+		Tags="&lt;life&gt;&lt;meaning&gt;&lt;existence&gt;" AnswerCount="2"
+		CommentCount="0"
+		Body="&lt;p&gt;I would really like to know.&lt;/p&gt;" />
+	<row Id="6716" PostTypeId="2" ParentId="6715" CreationDate="2015-03-04T12:08:29.380"
+		Score="1" OwnerUserId="9214" LastEditorUserId="9214"
+		LastEditDate="2015-03-05T05:57:11.410" LastActivityDate="2015-03-05T05:57:11.410"
+		CommentCount="1"
+		Body="&lt;p&gt;42&lt;/p&gt;" />
+	<row Id="6717" PostTypeId="2" ParentId="6715" CreationDate="2015-03-05T12:08:29.380"
+		Score="0" OwnerUserId="9220" LastEditorUserId="9220"
+		LastEditDate="2015-03-06T05:57:11.410" LastActivityDate="2015-03-06T05:57:11.410"
+		CommentCount="0"
+		Body="&lt;p&gt;Who knows?&lt;/p&gt;" />
+
+	<row Id="1" PostTypeId="1" CreationDate="2012-10-23T19:38:18.867" Score="11" ViewCount="154" Body="&lt;p&gt;Who knows haha?&lt;/p&gt;" OwnerUserId="21" LastEditorUserId="177" LastEditDate="2012-11-12T03:17:16.247" LastActivityDate="2012-11-12T03:17:16.247" Title="What is the right approach to write the spin controller for a soccer robot?" Tags="&lt;soccer&gt;&lt;control&gt;" AnswerCount="2" CommentCount="6" />
+</posts>
