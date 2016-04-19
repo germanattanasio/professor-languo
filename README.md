@@ -14,7 +14,7 @@ ranks the answers. The system presents the most relevant answers from
 the corpus to the user, who is spared the time and effort of enlisting
 the community to provide an answer.
 
-For an introduction into Retrieve and Rank, and how it can help your business, see [this video](https://www.youtube.com/watch?v=pupGatYlfqQ). Then, you can read [this blog post](blog.pdf) for more information about the business need for the application, the process behind making it, and how using it can improve your results. Please note, this link allows you to quickly see the PDF. If you wish to click on any of the included links, please click the raw button to download a full functional copy.
+For an introduction into Retrieve and Rank, and how it can help your business, see [this video](https://www.youtube.com/watch?v=pupGatYlfqQ). Then, you can read [this blog post](blog.pdf) for more information about the business need for the application, the process behind making it, and how using it can improve your results. Please note, this link allows you to quickly see the PDF. If you wish to click on any of the included links, please click the raw button to download a full functional copy. You can also use a [running instance of the application](https://professor-languo.mybluemix.net/).
 
 Give it a try! Click the button below to fork into IBM DevOps Services and deploy your own copy of this application on Bluemix.  
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/professor-languo)  
