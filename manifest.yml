@@ -4,7 +4,7 @@ applications:
   disk_quota: 1024M
   host: demo-application
   name: demo-application
-  path: professor-languo.war
+  path: /professor-languo/target/professor-languo.war
   domain: mybluemix.net
   instances: 1
   memory: 512M
