@@ -65,7 +65,7 @@ $(document).ready(function() {
         var s = $(this).serializeArray();
         console.log("postData: " + s), s && $.ajax({
             method: "POST",
-            url: "/api/askquestion",
+            url: "/api/ask_question",
             data: s
         }).success(function(e, s, t) {
             generate_result_tiles(e), $(".speech--speech-two").css("display", "none"), $(".footer").css("display", "none"), $(".speech--speech-three").show(), $(".learn-more").show()
